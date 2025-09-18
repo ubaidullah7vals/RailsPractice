@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-09-18T08:14:39.000Z",
+  "cssFiles": [
+    "app/assets/stylesheets/critical.css",
+    "app/assets/stylesheets/application.css"
+  ],
+  "viewFiles": [
+    "app/views/layouts/mailer.text.erb",
+    "app/views/layouts/mailer.html.erb",
+    "app/views/layouts/application.html.erb",
+    "public/500.html",
+    "public/422.html",
+    "public/404.html"
+  ],
+  "usedClasses": [
+    "container",
+    "dialog",
+    "footer",
+    "header",
+    "main-content",
+    "navbar",
+    "navbar-brand",
+    "navbar-nav",
+    "rails-default-error-page"
+  ],
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "title": "Remove Unused CSS",
+      "description": "87.7% of CSS rules appear to be unused. Consider using PurgeCSS or similar tools.",
+      "impact": "High - Significant file size reduction"
+    },
+    {
+      "priority": "MEDIUM",
+      "title": "Enable CSS Minification",
+      "description": "Minify CSS files in production to reduce file sizes.",
+      "impact": "Medium - 20-30% size reduction"
+    },
+    {
+      "priority": "HIGH",
+      "title": "Use CSS PurgeCSS",
+      "description": "Implement PurgeCSS to automatically remove unused CSS rules.",
+      "impact": "High - 60-80% size reduction possible"
+    }
+  ],
+  "summary": {
+    "totalCSSFiles": 2,
+    "totalCSSSize": 6962,
+    "totalRules": 81,
+    "unusedRules": 71,
+    "unusedPercentage": 87.65432098765432
+  }
+}
